@@ -1,4 +1,4 @@
-# north_indian_culture
+# North Indian Culture
 
 A new Flutter project.
 
