@@ -3,9 +3,10 @@ import 'package:flutter/services.dart';
 import 'screens/home.dart';
 
 void main() {
-  SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-  ]);
+  // SystemChrome.setPreferredOrientations(
+  //     [DeviceOrientation.portraitUp]).then(
+  //   (_) => runApp(MyApp()),
+  // );
   runApp(const MyApp());
 }
 
