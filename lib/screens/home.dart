@@ -13,34 +13,7 @@ class Home extends StatelessWidget {
     final height = MediaQuery.of(context).size.height;
 
     return Scaffold(
-      //Floating Button
-      floatingActionButton: Container(
-          width:  80,
-          height: 80,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(50),
-            gradient: const LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [
-                AppColor.darkSecondaryColor,
-                AppColor.lightTertiaryColor,
-              ],
-            ),
-          ),
-          child: const Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              IconButton(
-                  icon: Icon(
-                    Icons.home,
-                    color: AppColor.primaryColor,
-                    size: 40,
-                  ),
-                  onPressed: null),
-             
-            ],
-          )),
+     
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
 
       //Body
